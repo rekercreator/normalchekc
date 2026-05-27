@@ -57,6 +57,7 @@ function insertarCarrito(producto) {
             <img src="${producto.imagen}" width=100>
         </td>
         <td>${producto.titulo}</td>
+        
         <td>${producto.precio}</td>
         <td>
             <a href="#" class="borrar-producto" data-id="${producto.id}">X</a>
